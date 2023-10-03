@@ -7,9 +7,9 @@ where continent is not null
 order by 3,4
 
 --Select the data that we're going to be using 
---select location, date, total_cases, new_cases, total_deaths, population 
---from PortfolioProject1..CovidDeaths
---order by 1, 2
+select location, date, total_cases, new_cases, total_deaths, population 
+from PortfolioProject1..CovidDeaths
+order by 1, 2
 
 --Looking at Total Cases vs Total Deaths
 --Shows likelihood of dying if you contract covid in your country
